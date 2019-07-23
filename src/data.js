@@ -6,7 +6,7 @@ export default [
         website: "https://www.handcode.co.uk",
         bio:
             "A custom CRM built with a NodeJS/Express server & API, using React for the UI, Redux for state management and JWT across front/back-end for authentication.",
-        tech: "React, Redux, NodeJS, Express, JWT, MongoDB",
+        tech: "React, Redux, NodeJS, Express, Axios, JWT, MongoDB, Jest, Enzyme, Styled Components",
         grad: ["#C6FFDD", "#f7797d"],
     },
     {
@@ -16,16 +16,17 @@ export default [
         website: "https://intense-falls-38018.herokuapp.com",
         bio:
             "An in-depth task management app that can track tasks, projects and tags to manage any project. Built with a NodeJS/Express server & API, using React for the UI, Redux for state management and JWT across front/back-end for authentication.",
-        tech: "React, Redux, NodeJS, Express, JWT, MongoDB",
+        tech: "React, Redux, NodeJS, Express, Axios, JWT, MongoDB",
         grad: ["#FF0099", "#493240"],
     },
     {
         id: 3,
-        name: "Handcode - Worktop",
+        name: "Worktop",
         github: "https://github.com/handcode-stuart/handcode-worktop",
         website: "https://worktop.handcode.co.uk/",
-        bio: "",
-        tech: "React",
+        bio:
+            "A place to collect all of my projects/snippets that aren't large/polished enough to make it on my portfolio.",
+        tech: "React, Styled Components",
         grad: ["#CB356B", "#BD3F32"],
     },
     {
@@ -33,7 +34,8 @@ export default [
         name: "FPL stats",
         github: "https://github.com/handcode-stuart/fpl-stats",
         website: "https://trusting-fermi-8db60e.netlify.com",
-        bio: "",
+        bio:
+            "Using the now deprecated Fantasy Premier League API, this app was a way of seeing the player, team and match data in a different light to how the offical app showed.",
         tech: "React, Fantasy Premier League API",
         grad: ["#bc4e9c", "#f80759"],
     },
@@ -42,8 +44,8 @@ export default [
         name: "Sales Taxes",
         github: "https://github.com/handcode-stuart/sales_taxes",
         website: "https://protected-taiga-99206.herokuapp.com",
-        bio: "",
-        tech: "",
+        bio: "A 'mock' store to show a simple tax calculator when a user puts items in their cart.",
+        tech: "React, Redux, SCSS",
         grad: ["#159957", "#155799"],
     },
     {
@@ -51,8 +53,8 @@ export default [
         name: "Spotify clone",
         github: "https://github.com/handcode-stuart/spotify-clone",
         website: "https://handcode-spotify-clone.herokuapp.com",
-        bio: "",
-        tech: "",
+        bio: "An attempt to mimic the Spotify UI as closely as I can.",
+        tech: "React, SCSS",
         grad: ["#007991", "#78ffd6"],
     },
     {
