@@ -16,7 +16,10 @@ export default styled.li`
     background: linear-gradient(45deg, #404040 0%, #545454 100%);
 
     .btn-holder {
+        width: 100%;
         margin-top: 24px;
+        display: flex;
+        justify-content: flex-end;
     }
 
     @media only screen and (min-width: 740px) {
