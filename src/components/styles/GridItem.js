@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.li`
-    width: calc(50% - 10px);
+    width: 100%;
     padding: 40px;
     background-color: #fafafa;
     margin-bottom: 20px;
@@ -10,4 +10,9 @@ export default styled.li`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media only screen and (min-width: 740px) {
+        width: calc(50% - 10px);
+        min-height: 380px;
+    }
 `;

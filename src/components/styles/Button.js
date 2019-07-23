@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export default styled.a`
-    background-color: #fff;
-    padding: 10px;
+    background-color: #404040;
+    padding: 6px 8px;
     display: inline-block;
     text-decoration: none;
-    color: #000;
-    margin-right: 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 4px;
+    transition: background-color 100ms ease-in-out;
 
     &:hover {
-        opacity: 0.5;
+        background-color: #767676;
     }
 `;
