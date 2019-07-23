@@ -7,7 +7,7 @@ export default styled.div`
 
     input {
         font-family: "Open Sans", sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
         padding: 10px;
         border: none;
@@ -18,6 +18,10 @@ export default styled.div`
 
         &::placeholder {
             color: #404040;
+        }
+
+        @media only screen and (min-width: 740px) {
+            font-size: 22px;
         }
     }
 `;

@@ -4,7 +4,7 @@ export default styled.li`
     width: 100%;
     padding: 30px;
     background-color: #404040;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     min-height: 320px;
     display: flex;
     flex-direction: column;
@@ -17,13 +17,13 @@ export default styled.li`
     background: linear-gradient(45deg, #404040 0%, #545454 100%);
 
     @media only screen and (min-width: 740px) {
-        width: calc(50% - 10px);
+        width: calc(50% - 20px);
         min-height: 320px;
-        padding: 60px;
+        padding: 40px;
+        margin: 0 10px 20px;
     }
 
     @media only screen and (min-width: 1440px) {
-        width: calc(33.33% - 10px);
-        padding: 40px;
+        width: calc(33.33% - 20px);
     }
 `;
