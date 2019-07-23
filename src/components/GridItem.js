@@ -6,9 +6,17 @@ import Button from "./Button";
 const GridItem = ({ project }) => {
     return (
         <StyledGridItem>
-            <h2>{project.name}</h2>
-            <Button link={project.github} text='Code' />
-            <Button link={project.website} text='Website' />
+            <div>
+                <h2>{project.name}</h2>
+                <p>
+                    <strong>{project.tech}</strong>
+                </p>
+                <p>{project.bio}</p>
+            </div>
+            <div>
+                <Button link={project.github} text='Code' />
+                <Button link={project.website} text='Website' />
+            </div>
         </StyledGridItem>
     );
 };

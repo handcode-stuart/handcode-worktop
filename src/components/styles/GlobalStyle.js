@@ -8,10 +8,19 @@ export default createGlobalStyle`
     html, body {
         margin: 0;
         padding: 0;
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-family: 'Open Sans', sans-serif;;
+        color: #404040;
+        padding: 10px;
     }
 
     h1,h2,h3,h4,h5 {
         margin: 0;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 24px;
     }
+
+    h1 { font-size: 50px; }
+    h2 { font-size: 40px; }
+    h3 { font-size: 32px; }
 `;

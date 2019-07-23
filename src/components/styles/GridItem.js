@@ -5,4 +5,9 @@ export default styled.li`
     padding: 40px;
     background-color: #fafafa;
     margin-bottom: 20px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 `;

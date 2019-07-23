@@ -4,20 +4,7 @@ import Grid from "../Grid";
 
 let wrapper;
 
-const projects = [
-    {
-        id: 1,
-        name: "CRM",
-        github: "https://github.com/handcode-stuart/crm",
-        website: "https://www.handcode.co.uk",
-    },
-    {
-        id: 2,
-        name: "Orderly",
-        github: "https://github.com/handcode-stuart/orderly",
-        website: "https://www.handcode.co.uk",
-    },
-];
+const projects = [{ id: 1 }, { id: 2 }];
 
 describe("<Grid />", () => {
     beforeEach(() => {

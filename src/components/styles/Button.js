@@ -6,4 +6,9 @@ export default styled.a`
     display: inline-block;
     text-decoration: none;
     color: #000;
+    margin-right: 10px;
+
+    &:hover {
+        opacity: 0.5;
+    }
 `;
