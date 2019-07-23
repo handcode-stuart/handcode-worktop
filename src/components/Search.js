@@ -13,7 +13,7 @@ const Search = ({ projects, onFilter }) => {
 
     return (
         <StyledSearch>
-            <input type='text' placeholder='Search project name...' onChange={e => doFilter(e)} />
+            <input type='text' placeholder='Search by name...' onChange={e => doFilter(e)} />
         </StyledSearch>
     );
 };

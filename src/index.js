@@ -22,6 +22,14 @@ const projects = [
         tech: "React, Redux, NodeJS, Express, JWT, MongoDB",
     },
     {
+        id: 14,
+        name: "Handcode - Worktop",
+        github: "",
+        website: "",
+        bio: "",
+        tech: "",
+    },
+    {
         id: 3,
         name: "FPL stats",
         github: "",

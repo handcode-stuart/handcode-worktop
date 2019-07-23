@@ -7,7 +7,7 @@ export default styled.div`
 
     input {
         font-family: "Open Sans", sans-serif;
-        font-size: 16px;
+        font-size: 22px;
         font-weight: 400;
         padding: 10px;
         border: none;
