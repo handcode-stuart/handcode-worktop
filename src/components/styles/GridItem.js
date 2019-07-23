@@ -3,17 +3,22 @@ import styled from "styled-components";
 export default styled.li`
     width: 100%;
     padding: 30px;
-    background-color: #fafafa;
+    background-color: #404040;
     margin-bottom: 20px;
     min-height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    color: #fff;
+    border-radius: 4px;
+    background: -moz-linear-gradient(45deg, #404040 0%, #545454 100%);
+    background: -webkit-linear-gradient(45deg, #404040 0%, #545454 100%);
+    background: linear-gradient(45deg, #404040 0%, #545454 100%);
 
     @media only screen and (min-width: 740px) {
         width: calc(50% - 10px);
-        min-height: 380px;
+        min-height: 320px;
         padding: 60px;
     }
 
