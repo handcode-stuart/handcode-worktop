@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import ProjectGridItem from "../ProjectGridItem";
+import GridItem from "../GridItem";
 
 let wrapper;
 
@@ -10,9 +10,9 @@ const project = {
     github: "https://github.com/handcode-stuart/crm",
     website: "https://www.handcode.co.uk",
 };
-describe("<App />", () => {
+describe("<GridItem />", () => {
     beforeEach(() => {
-        wrapper = shallow(<ProjectGridItem project={project} />);
+        wrapper = shallow(<GridItem project={project} />);
     });
 
     it("should render", () => {
@@ -24,10 +24,10 @@ describe("<App />", () => {
     });
 
     it("should render the github link", () => {
-        expect(wrapper.find(`a[href='${project.github}']`).length).toBe(1);
+        expect(wrapper.find(`Button[link='${project.github}']`).length).toBe(1);
     });
 
     it("should render the website link", () => {
-        expect(wrapper.find(`a[href='${project.website}']`).length).toBe(1);
+        expect(wrapper.find(`Button[link='${project.website}']`).length).toBe(1);
     });
 });

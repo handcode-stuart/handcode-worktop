@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../../App";
+import Button from "../Button";
 
 let wrapper;
 
-describe("<App />", () => {
+describe("<Button />", () => {
     beforeEach(() => {
-        wrapper = shallow(<App />);
+        wrapper = shallow(<Button link='https://www.handcode.co.uk' text='Handcode' />);
     });
 
     it("should render", () => {
