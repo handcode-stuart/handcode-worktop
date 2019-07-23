@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.li`
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     background-color: #fafafa;
     margin-bottom: 20px;
     min-height: 320px;
@@ -14,5 +14,6 @@ export default styled.li`
     @media only screen and (min-width: 740px) {
         width: calc(50% - 10px);
         min-height: 380px;
+        padding: 60px;
     }
 `;
