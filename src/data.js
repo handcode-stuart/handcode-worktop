@@ -22,8 +22,8 @@ export default [
     {
         id: 3,
         name: "Handcode - Worktop",
-        github: "",
-        website: "",
+        github: "https://github.com/handcode-stuart/handcode-worktop",
+        website: "https://worktop.handcode.co.uk/",
         bio: "",
         tech: "React",
         grad: ["#CB356B", "#BD3F32"],
@@ -75,9 +75,9 @@ export default [
     },
     {
         id: 9,
-        name: "Swansea FC",
-        github: "",
-        website: "",
+        name: "Swansea FC Interactive",
+        github: "https://github.com/handcode-stuart/swanseafc-interactive",
+        website: "https://admiring-bohr-1725f5.netlify.com",
         bio: "",
         tech: "React",
         grad: ["#FF5F6D", "#FFC371"],
