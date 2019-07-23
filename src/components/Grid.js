@@ -15,7 +15,7 @@ const Grid = ({ projects }) => {
 };
 
 Grid.propTypes = {
-    projects: PropTypes.array.isRequired,
+    projects: PropTypes.array,
 };
 
 export default Grid;
