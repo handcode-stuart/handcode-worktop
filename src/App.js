@@ -28,7 +28,7 @@ const projects = [
         github: "",
         website: "",
         bio: "",
-        tech: "React, Fant",
+        tech: "React, Fantasy Premier League API",
     },
     {
         id: 4,
@@ -97,6 +97,14 @@ const projects = [
     {
         id: 12,
         name: "Guestlist app",
+        github: "",
+        website: "",
+        bio: "",
+        tech: "",
+    },
+    {
+        id: 13,
+        name: "NextJS test",
         github: "",
         website: "",
         bio: "",

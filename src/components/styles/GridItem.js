@@ -16,4 +16,9 @@ export default styled.li`
         min-height: 380px;
         padding: 60px;
     }
+
+    @media only screen and (min-width: 1440px) {
+        width: calc(33.33% - 10px);
+        padding: 40px;
+    }
 `;
