@@ -21,7 +21,7 @@ const GridItem = ({ project }) => {
                 </p>
                 <p>{project.bio}</p>
             </div>
-            <div>
+            <div className='btn-holder'>
                 <Button link={project.github} text='Code' />
                 <Button link={project.website} text='Website' />
             </div>

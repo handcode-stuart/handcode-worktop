@@ -5,7 +5,6 @@ export default styled.li`
     padding: 30px;
     background-color: #404040;
     margin: 0 0 20px;
-    min-height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,6 +14,10 @@ export default styled.li`
     background: -moz-linear-gradient(45deg, #404040 0%, #545454 100%);
     background: -webkit-linear-gradient(45deg, #404040 0%, #545454 100%);
     background: linear-gradient(45deg, #404040 0%, #545454 100%);
+
+    .btn-holder {
+        margin-top: 24px;
+    }
 
     @media only screen and (min-width: 740px) {
         width: calc(50% - 20px);
