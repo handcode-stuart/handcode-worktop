@@ -29,36 +29,7 @@ describe("<App />", () => {
     });
 
     it("should render a list of projects", () => {
-        expect(wrapper.find("li")).toHaveLength(2);
-
+        expect(wrapper.find("ProjectGridItem")).toHaveLength(2);
         expect(wrapper.find("Orderly")).toBeTruthy();
-    });
-
-    it("should render a link for the github of a project", () => {
-        expect(
-            wrapper.contains(
-                <a
-                    href='https://github.com/handcode-stuart/crm'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    Code
-                </a>,
-            ),
-        ).toBeTruthy();
-    });
-
-    it("should render a link for the website of a project", () => {
-        expect(
-            wrapper.contains(
-                <a href='https://www.handcode.co.uk' target='_blank' rel='noopener noreferrer'>
-                    Website
-                </a>,
-            ),
-        ).toBeTruthy();
-    });
-
-    it("should render the name of a project", () => {
-        expect(wrapper.find("CRM")).toBeTruthy();
     });
 });

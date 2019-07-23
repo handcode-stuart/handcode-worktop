@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectGridItem from "./components/ProjectGridItem";
 
 const data = [
     {
@@ -21,15 +22,7 @@ const App = () => {
             <h1>App</h1>
             <ul>
                 {data.map(proj => (
-                    <li key={proj.id}>
-                        {proj.name}
-                        <a href={proj.github} target='_blank' rel='noopener noreferrer'>
-                            Code
-                        </a>
-                        <a href={proj.website} target='_blank' rel='noopener noreferrer'>
-                            Website
-                        </a>
-                    </li>
+                    <ProjectGridItem key={proj.id} project={proj} />
                 ))}
             </ul>
         </div>
