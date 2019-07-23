@@ -5,7 +5,15 @@ import Button from "./Button";
 
 const GridItem = ({ project }) => {
     return (
-        <StyledGridItem>
+        <StyledGridItem
+            style={
+                project.grad && {
+                    background: `linear-gradient(45deg, ${project.grad[0]} 0%, ${
+                        project.grad[1]
+                    } 100%)`,
+                }
+            }
+        >
             <div>
                 <h2>{project.name}</h2>
                 <p>

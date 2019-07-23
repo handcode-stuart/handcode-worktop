@@ -11,6 +11,7 @@ const projects = [
         bio:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae felis tempor, accumsan elit vel, egestas purus.",
         tech: "React, Redux, NodeJS, Express, JWT, MongoDB",
+        grad: ["#C6FFDD", "#f7797d"],
     },
     {
         id: 2,
@@ -20,6 +21,7 @@ const projects = [
         bio:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae felis tempor, accumsan elit vel, egestas purus.",
         tech: "React, Redux, NodeJS, Express, JWT, MongoDB",
+        grad: ["#FF0099", "#493240"],
     },
     {
         id: 14,
@@ -28,6 +30,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#CB356B", "#BD3F32"],
     },
     {
         id: 3,
@@ -36,6 +39,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "React, Fantasy Premier League API",
+        grad: ["#bc4e9c", "#f80759"],
     },
     {
         id: 4,
@@ -44,6 +48,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#159957", "#155799"],
     },
     {
         id: 5,
@@ -52,6 +57,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#007991", "#78ffd6"],
     },
     {
         id: 6,
@@ -60,6 +66,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#3494E6", "#EC6EAD"],
     },
     {
         id: 7,
@@ -68,6 +75,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#EECDA3", "#EF629F"],
     },
     {
         id: 8,
@@ -76,6 +84,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#FF5F6D", "#FFC371"],
     },
     {
         id: 9,
@@ -84,6 +93,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#833ab4", "#fcb045"],
     },
     {
         id: 10,
@@ -92,6 +102,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#83a4d4", "#b6fbff"],
     },
     {
         id: 11,
@@ -100,6 +111,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#ddd6f3", "#faaca8"],
     },
     {
         id: 12,
@@ -108,6 +120,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#FC354C", "#0ABFBC"],
     },
     {
         id: 13,
@@ -116,6 +129,7 @@ const projects = [
         website: "",
         bio: "",
         tech: "",
+        grad: ["#ED4264", "#FFEDBC"],
     },
 ];
 
