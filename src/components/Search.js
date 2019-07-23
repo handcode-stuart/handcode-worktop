@@ -6,7 +6,7 @@ import StyledSearch from "./styles/Search";
 const Search = ({ projects, onFilter }) => {
     const doFilter = e => {
         const filteredProjects = projects.filter(proj => {
-            proj.name.toLowerCase().includes(e.target.value.toLowerCase());
+            return proj.name.toLowerCase().includes(e.target.value.toLowerCase());
         });
         onFilter(filteredProjects);
     };

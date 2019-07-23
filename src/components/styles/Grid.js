@@ -5,7 +5,7 @@ export default styled.ul`
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: stretch;
     flex-wrap: wrap;
 `;
