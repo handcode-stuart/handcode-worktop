@@ -22,8 +22,8 @@ const GridItem = ({ project }) => {
                 <p>{project.bio}</p>
             </div>
             <div className='btn-holder'>
-                <Button link={project.github} text='Code' />
-                <Button link={project.website} text='Website' />
+                {project.github && <Button link={project.github} text='Code' />}
+                {project.website && <Button link={project.website} text='Website' />}
             </div>
         </StyledGridItem>
     );

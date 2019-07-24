@@ -19,7 +19,7 @@ export default styled.li`
         width: 100%;
         margin-top: 24px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     @media only screen and (min-width: 740px) {
