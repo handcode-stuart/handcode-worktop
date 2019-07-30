@@ -131,4 +131,13 @@ export default [
         tech: "VueJS, Laravel, PHPUnit, TDD",
         grad: ["#ddd6f3", "#faaca8"],
     },
+    {
+        id: 17,
+        name: "Draggable Todo's",
+        github: "https://github.com/handcode-stuart/draggable-todos",
+        website: "https://quirky-pasteur-4e5d24.netlify.com/",
+        bio: "A simple app that allows users to drag and drop items on a page.",
+        tech: "React, React-Beautiful-DND",
+        grad: ["#ddd6f3", "#faaca8"],
+    },
 ];
