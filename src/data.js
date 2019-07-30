@@ -21,6 +21,15 @@ export default [
     },
     {
         id: 3,
+        name: "Draggable Todo's",
+        github: "https://github.com/handcode-stuart/draggable-todos",
+        website: "https://quirky-pasteur-4e5d24.netlify.com/",
+        bio: "A simple app that allows users to drag and drop items on a page.",
+        tech: "React, React-Beautiful-DND",
+        grad: ["#ddd6f3", "#faaca8"],
+    },
+    {
+        id: 4,
         name: "Worktop",
         github: "https://github.com/handcode-stuart/handcode-worktop",
         website: "https://worktop.handcode.co.uk/",
@@ -30,7 +39,7 @@ export default [
         grad: ["#CB356B", "#BD3F32"],
     },
     {
-        id: 6,
+        id: 5,
         name: "Spotify clone",
         github: "https://github.com/handcode-stuart/spotify-clone",
         website: "https://handcode-spotify-clone.herokuapp.com",
@@ -39,7 +48,7 @@ export default [
         grad: ["#007991", "#78ffd6"],
     },
     {
-        id: 9,
+        id: 6,
         name: "Swansea FC Interactive",
         github: "https://github.com/handcode-stuart/swanseafc-interactive",
         website: "https://admiring-bohr-1725f5.netlify.com",
@@ -49,7 +58,7 @@ export default [
         grad: ["#FF5F6D", "#FFC371"],
     },
     {
-        id: 8,
+        id: 7,
         name: "Smart task input",
         github: "https://github.com/handcode-stuart/smart-task-input-react-component",
         website: "https://stoic-pasteur-294d1f.netlify.com/",
@@ -58,7 +67,7 @@ export default [
         grad: ["#EECDA3", "#EF629F"],
     },
     {
-        id: 10,
+        id: 8,
         name: "ReactNodeAuth",
         github: "https://github.com/handcode-stuart/ReactNodeAuth",
         website: "",
@@ -68,7 +77,7 @@ export default [
         grad: ["#833ab4", "#fcb045"],
     },
     {
-        id: 14,
+        id: 9,
         name: "NextJS",
         github: "https://github.com/handcode-stuart/nextjs-server-side-rendering-test",
         website: "https://learning-nextjs.stuart-handcode.now.sh/",
@@ -77,7 +86,7 @@ export default [
         grad: ["#ED4264", "#FFEDBC"],
     },
     {
-        id: 4,
+        id: 10,
         name: "FPL stats",
         github: "https://github.com/handcode-stuart/fpl-stats",
         website: "https://trusting-fermi-8db60e.netlify.com",
@@ -87,7 +96,7 @@ export default [
         grad: ["#bc4e9c", "#f80759"],
     },
     {
-        id: 5,
+        id: 11,
         name: "Sales Taxes",
         github: "https://github.com/handcode-stuart/sales_taxes",
         website: "https://protected-taiga-99206.herokuapp.com",
@@ -96,7 +105,7 @@ export default [
         grad: ["#159957", "#155799"],
     },
     {
-        id: 15,
+        id: 12,
         name: "User app",
         github: "https://github.com/handcode-stuart/user-app",
         website: "https://stupefied-jackson-7ac0fd.netlify.com",
@@ -105,7 +114,7 @@ export default [
         grad: ["#800080", "#ffc0cb"],
     },
     {
-        id: 16,
+        id: 13,
         name: "Map User Data",
         github: "https://github.com/handcode-stuart/map-user-data",
         website: "https://peaceful-pike-e61c64.netlify.com",
@@ -114,7 +123,7 @@ export default [
         grad: ["#0cebeb", "#29ffc6"],
     },
     {
-        id: 11,
+        id: 14,
         name: "Site Saver",
         github: "https://github.com/handcode-stuart/site-saver",
         website: "https://site-saver.handcodeapps.co.uk",
@@ -123,21 +132,12 @@ export default [
         grad: ["#83a4d4", "#b6fbff"],
     },
     {
-        id: 12,
+        id: 15,
         name: "Site Hustle",
         github: "https://gitlab.com/handcode_stuart/side-hustle",
         website: "https://side-hustle.handcodeapps.co.uk",
         bio: "An area to work on different 'Side Hustle' ideas and collaborate with others.",
         tech: "VueJS, Laravel, PHPUnit, TDD",
-        grad: ["#ddd6f3", "#faaca8"],
-    },
-    {
-        id: 17,
-        name: "Draggable Todo's",
-        github: "https://github.com/handcode-stuart/draggable-todos",
-        website: "https://quirky-pasteur-4e5d24.netlify.com/",
-        bio: "A simple app that allows users to drag and drop items on a page.",
-        tech: "React, React-Beautiful-DND",
         grad: ["#ddd6f3", "#faaca8"],
     },
 ];
