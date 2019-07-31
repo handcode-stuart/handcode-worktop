@@ -1,6 +1,6 @@
 export default [
     {
-        id: 1,
+        id: "crm",
         name: "CRM",
         github: "https://github.com/handcode-stuart/crm",
         website: "",
@@ -10,7 +10,7 @@ export default [
         grad: ["#C6FFDD", "#f7797d"],
     },
     {
-        id: 2,
+        id: "orderly",
         name: "Orderly",
         github: "https://github.com/handcode-stuart/orderly",
         website: "https://intense-falls-38018.herokuapp.com",
@@ -20,7 +20,7 @@ export default [
         grad: ["#FF0099", "#493240"],
     },
     {
-        id: 3,
+        id: "draggable-todos",
         name: "Draggable Todo's",
         github: "https://github.com/handcode-stuart/draggable-todos",
         website: "https://quirky-pasteur-4e5d24.netlify.com/",
@@ -29,7 +29,7 @@ export default [
         grad: ["#ddd6f3", "#faaca8"],
     },
     {
-        id: 4,
+        id: "worktop",
         name: "Worktop",
         github: "https://github.com/handcode-stuart/handcode-worktop",
         website: "https://worktop.handcode.co.uk/",
@@ -39,7 +39,7 @@ export default [
         grad: ["#CB356B", "#BD3F32"],
     },
     {
-        id: 5,
+        id: "spotify-clone",
         name: "Spotify clone",
         github: "https://github.com/handcode-stuart/spotify-clone",
         website: "https://handcode-spotify-clone.herokuapp.com",
@@ -48,7 +48,16 @@ export default [
         grad: ["#007991", "#78ffd6"],
     },
     {
-        id: 6,
+        id: "circle-ci-test",
+        name: "CircleCI test",
+        github: "https://github.com/handcode-stuart/testing-react-ci",
+        website: "https://handcode-react-testing.herokuapp.com",
+        bio: "A simple React app with tests to utilise CircleCI and Heroku for CI.",
+        tech: "React, Jest, Enzyme, CircleCI",
+        grad: ["#9796f0", "#fbc7d4"],
+    },
+    {
+        id: "swansea-fc-interactive",
         name: "Swansea FC Interactive",
         github: "https://github.com/handcode-stuart/swanseafc-interactive",
         website: "https://admiring-bohr-1725f5.netlify.com",
@@ -58,7 +67,7 @@ export default [
         grad: ["#FF5F6D", "#FFC371"],
     },
     {
-        id: 7,
+        id: "smart-task-input",
         name: "Smart task input",
         github: "https://github.com/handcode-stuart/smart-task-input-react-component",
         website: "https://stoic-pasteur-294d1f.netlify.com/",
@@ -67,7 +76,7 @@ export default [
         grad: ["#EECDA3", "#EF629F"],
     },
     {
-        id: 8,
+        id: "react-node-auth",
         name: "ReactNodeAuth",
         github: "https://github.com/handcode-stuart/ReactNodeAuth",
         website: "",
@@ -77,7 +86,7 @@ export default [
         grad: ["#833ab4", "#fcb045"],
     },
     {
-        id: 9,
+        id: "next-js",
         name: "NextJS",
         github: "https://github.com/handcode-stuart/nextjs-server-side-rendering-test",
         website: "https://learning-nextjs.stuart-handcode.now.sh/",
@@ -86,7 +95,7 @@ export default [
         grad: ["#ED4264", "#FFEDBC"],
     },
     {
-        id: 10,
+        id: "fpl-stats",
         name: "FPL stats",
         github: "https://github.com/handcode-stuart/fpl-stats",
         website: "https://trusting-fermi-8db60e.netlify.com",
@@ -96,7 +105,7 @@ export default [
         grad: ["#bc4e9c", "#f80759"],
     },
     {
-        id: 11,
+        id: "sales-taxes",
         name: "Sales Taxes",
         github: "https://github.com/handcode-stuart/sales_taxes",
         website: "https://protected-taiga-99206.herokuapp.com",
@@ -105,7 +114,7 @@ export default [
         grad: ["#159957", "#155799"],
     },
     {
-        id: 12,
+        id: "user-app",
         name: "User app",
         github: "https://github.com/handcode-stuart/user-app",
         website: "https://stupefied-jackson-7ac0fd.netlify.com",
@@ -114,7 +123,7 @@ export default [
         grad: ["#800080", "#ffc0cb"],
     },
     {
-        id: 13,
+        id: "map-user-data",
         name: "Map User Data",
         github: "https://github.com/handcode-stuart/map-user-data",
         website: "https://peaceful-pike-e61c64.netlify.com",
@@ -123,7 +132,7 @@ export default [
         grad: ["#0cebeb", "#29ffc6"],
     },
     {
-        id: 14,
+        id: "site-saver",
         name: "Site Saver",
         github: "https://github.com/handcode-stuart/site-saver",
         website: "https://site-saver.handcodeapps.co.uk",
@@ -132,8 +141,8 @@ export default [
         grad: ["#83a4d4", "#b6fbff"],
     },
     {
-        id: 15,
-        name: "Site Hustle",
+        id: "side-hustle",
+        name: "Side Hustle",
         github: "https://gitlab.com/handcode_stuart/side-hustle",
         website: "https://side-hustle.handcodeapps.co.uk",
         bio: "An area to work on different 'Side Hustle' ideas and collaborate with others.",
