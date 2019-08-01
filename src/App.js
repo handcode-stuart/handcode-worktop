@@ -8,8 +8,6 @@ import Search from "./components/Search";
 const App = ({ projects }) => {
     const [filteredProjects, setFilteredProjects] = useState(projects);
 
-    console.log(filteredProjects);
-
     return (
         <>
             <GlobalStyle />
