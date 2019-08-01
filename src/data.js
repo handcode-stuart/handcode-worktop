@@ -57,6 +57,15 @@ export default [
         grad: ["#9796f0", "#fbc7d4"],
     },
     {
+        id: "task-list",
+        name: "Local storage driven task list",
+        github: "https://github.com/handcode-stuart/local-storage-task-list",
+        website: "https://compassionate-panini-25f213.netlify.com",
+        bio: "A simple task list app that uses local storage to persist tasks.",
+        tech: "React, Local storage",
+        grad: ["#5433FF", "#A5FECB"],
+    },
+    {
         id: "swansea-fc-interactive",
         name: "Swansea FC Interactive",
         github: "https://github.com/handcode-stuart/swanseafc-interactive",
