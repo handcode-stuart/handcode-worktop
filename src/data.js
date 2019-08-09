@@ -42,7 +42,7 @@ export default [
         id: "spotify-clone",
         name: "Spotify clone",
         github: "https://github.com/handcode-stuart/spotify-clone",
-        website: "https://handcode-spotify-clone.herokuapp.com",
+        website: "https://gallant-wozniak-b2a300.netlify.com",
         bio: "An attempt to mimic the Spotify UI as close as possible.",
         tech: "React, SCSS",
         grad: ["#007991", "#78ffd6"],
